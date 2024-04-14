@@ -7,7 +7,7 @@ import Titulo from "./components/Titulo";
 import CompPadrao, {Comp1, Comp2} from "./components/Multi";
 import Botao from "./components/Botao";
 import Contador from "./components/Contador";
-
+import Pai from "./components/direta/Pai";
 
 export default () => (
     <View style={styles.App}>
@@ -25,8 +25,10 @@ export default () => (
         
         {/* <Botao/> */}
 
-        <Contador inicial={100} passo={10}/>
-        <Contador />
+        {/* <Contador inicial={100} passo={10}/>
+        <Contador /> */}
+        <Pai />
+
     </View>
 )
 
