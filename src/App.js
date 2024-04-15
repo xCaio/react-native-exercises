@@ -9,6 +9,8 @@ import Botao from "./components/Botao";
 import Contador from "./components/Contador";
 // import Pai from "./components/direta/Pai";
 import Pai from "./components/indireta/Pai";
+import ContadorV2 from './components/contador/ContadorV2';
+
 
 export default () => (
     <View style={styles.App}>
@@ -28,7 +30,9 @@ export default () => (
 
         {/* <Contador inicial={100} passo={10}/>
         <Contador /> */}
-        <Pai/>
+        {/* <Pai/> */}
+        <ContadorV2 />
+
 
     </View>
 )
