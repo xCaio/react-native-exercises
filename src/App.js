@@ -11,7 +11,7 @@ import Contador from "./components/Contador";
 import Pai from "./components/indireta/Pai";
 import ContadorV2 from './components/contador/ContadorV2';
 import ParImpar from "./components/ParImpar";
-
+import CondRel from "./pratica/CondRel";
 export default () => (
     <SafeAreaView style={styles.App}>
         
@@ -35,7 +35,7 @@ export default () => (
         <Contador /> */}
         {/* <Pai/> */}
         {/* <ContadorV2 /> */}
-        <ParImpar num={3}/>
+        <CondRel num={13}/>
 
     </SafeAreaView>
 )
