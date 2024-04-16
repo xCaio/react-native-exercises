@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, SafeAreaView } from "react-native";
 import Primeiro from "../src/components/Primeiro"
 import MinMax from "./components/MinMax";
 import Aleatorio from "./components/Aleatorio";
@@ -10,10 +10,13 @@ import Contador from "./components/Contador";
 // import Pai from "./components/direta/Pai";
 import Pai from "./components/indireta/Pai";
 import ContadorV2 from './components/contador/ContadorV2';
-
+import ParImpar from "./components/ParImpar";
 
 export default () => (
-    <View style={styles.App}>
+    <SafeAreaView style={styles.App}>
+        
+
+        
         {/* <MinMax min={3} max={20}/>
         <MinMax min={1} max={94}/> */}
         
@@ -31,10 +34,10 @@ export default () => (
         {/* <Contador inicial={100} passo={10}/>
         <Contador /> */}
         {/* <Pai/> */}
-        <ContadorV2 />
+        {/* <ContadorV2 /> */}
+        <ParImpar num={3}/>
 
-
-    </View>
+    </SafeAreaView>
 )
 
 const styles = StyleSheet.create({
