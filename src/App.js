@@ -14,6 +14,7 @@ import ParImpar from "./components/ParImpar";
 import CondRel from "./pratica/CondRel";
 import Familia from "./components/relacao/Familia";
 import Membro from "./components/relacao/Membro";
+import UsuarioLogado from "./components/UsuarioLogado";
 export default () => (
     <SafeAreaView style={styles.App}>
         
@@ -38,10 +39,13 @@ export default () => (
         {/* <Pai/> */}
         {/* <ContadorV2 /> */}
         {/* <CondRel num={13}/> */}
-        <Familia>
+        {/* <Familia>
             <Membro nome="Teste" sobrenome="Children"/>
             <Membro nome="Caio" sobrenome="Santos"/>
-        </Familia >
+        </Familia > */}
+        <UsuarioLogado usuario={{nome: "Caio", email: "caio123@gmail.com"}}/>
+        <UsuarioLogado usuario={{nome: "Caio"}}/>
+        <UsuarioLogado usuario={{nome: "Passou", email: "Valido"}}/>
 
     </SafeAreaView>
 )
