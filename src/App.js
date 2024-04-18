@@ -12,6 +12,8 @@ import Pai from "./components/indireta/Pai";
 import ContadorV2 from './components/contador/ContadorV2';
 import ParImpar from "./components/ParImpar";
 import CondRel from "./pratica/CondRel";
+import Familia from "./components/relacao/Familia";
+import Membro from "./components/relacao/Membro";
 export default () => (
     <SafeAreaView style={styles.App}>
         
@@ -35,7 +37,11 @@ export default () => (
         <Contador /> */}
         {/* <Pai/> */}
         {/* <ContadorV2 /> */}
-        <CondRel num={13}/>
+        {/* <CondRel num={13}/> */}
+        <Familia>
+            <Membro nome="Teste" sobrenome="Children"/>
+            <Membro nome="Caio" sobrenome="Santos"/>
+        </Familia >
 
     </SafeAreaView>
 )
