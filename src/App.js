@@ -15,6 +15,9 @@ import CondRel from "./pratica/CondRel";
 import Familia from "./components/relacao/Familia";
 import Membro from "./components/relacao/Membro";
 import UsuarioLogado from "./components/UsuarioLogado";
+import ListaProdutos from "./components/produtos/ListaProdutos";
+
+
 export default () => (
     <SafeAreaView style={styles.App}>
         
@@ -43,10 +46,10 @@ export default () => (
             <Membro nome="Teste" sobrenome="Children"/>
             <Membro nome="Caio" sobrenome="Santos"/>
         </Familia > */}
-        <UsuarioLogado usuario={{nome: "Caio", email: "caio123@gmail.com"}}/>
+        {/* <UsuarioLogado usuario={{nome: "Caio", email: "caio123@gmail.com"}}/>
         <UsuarioLogado usuario={{nome: "Caio"}}/>
-        <UsuarioLogado usuario={{nome: "Passou", email: "Valido"}}/>
-
+        <UsuarioLogado usuario={{nome: "Passou", email: "Valido"}}/> */}
+        <ListaProdutos />
     </SafeAreaView>
 )
 
