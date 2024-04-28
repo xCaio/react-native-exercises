@@ -17,7 +17,7 @@ import Membro from "./components/relacao/Membro";
 import UsuarioLogado from "./components/UsuarioLogado";
 import ListaProdutos from "./components/produtos/ListaProdutos";
 import ListaProdutosFlatList from "./components/produtos/ListaProdutosFlatList";
-
+import DigiteSeuNome from "./components/DigiteSeuNome";
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -51,7 +51,8 @@ export default () => (
         <UsuarioLogado usuario={{nome: "Caio"}}/>
         <UsuarioLogado usuario={{nome: "Passou", email: "Valido"}}/> */}
         {/* <ListaProdutos /> */}
-        <ListaProdutosFlatList />
+        {/* <ListaProdutosFlatList /> */}
+        <DigiteSeuNome />
     </SafeAreaView>
 )
 
