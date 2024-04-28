@@ -18,6 +18,8 @@ import UsuarioLogado from "./components/UsuarioLogado";
 import ListaProdutos from "./components/produtos/ListaProdutos";
 import ListaProdutosFlatList from "./components/produtos/ListaProdutosFlatList";
 import DigiteSeuNome from "./components/DigiteSeuNome";
+import teste from "./components/teste/teste";
+import Teste from "./components/teste/teste";
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -52,7 +54,8 @@ export default () => (
         <UsuarioLogado usuario={{nome: "Passou", email: "Valido"}}/> */}
         {/* <ListaProdutos /> */}
         {/* <ListaProdutosFlatList /> */}
-        <DigiteSeuNome />
+        {/* <DigiteSeuNome /> */}
+        <Teste />
     </SafeAreaView>
 )
 
