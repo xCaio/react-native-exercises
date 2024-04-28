@@ -4,7 +4,7 @@ import Primeiro from "../src/components/Primeiro"
 import MinMax from "./components/MinMax";
 import Aleatorio from "./components/Aleatorio";
 import Titulo from "./components/Titulo";
-import CompPadrao, {Comp1, Comp2} from "./components/Multi";
+import CompPadrao, { Comp1, Comp2 } from "./components/Multi";
 import Botao from "./components/Botao";
 import Contador from "./components/Contador";
 // import Pai from "./components/direta/Pai";
@@ -20,24 +20,25 @@ import ListaProdutosFlatList from "./components/produtos/ListaProdutosFlatList";
 import DigiteSeuNome from "./components/DigiteSeuNome";
 import teste from "./components/teste/teste";
 import Teste from "./components/teste/teste";
+import FlexboxV1 from "./components/layout/FlexboxV1"
 
 export default () => (
     <SafeAreaView style={styles.App}>
-        
 
-        
+
+
         {/* <MinMax min={3} max={20}/>
         <MinMax min={1} max={94}/> */}
-        
+
         {/* <CompPadrao />
         <Comp1 />
         <Comp2 />
         <Primeiro /> */}
 
         {/* <Aleatorio min={1} max={1000} /> */}
-        
+
         {/* <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do produto"/> */}
-        
+
         {/* <Botao/> */}
 
         {/* <Contador inicial={100} passo={10}/>
@@ -55,7 +56,9 @@ export default () => (
         {/* <ListaProdutos /> */}
         {/* <ListaProdutosFlatList /> */}
         {/* <DigiteSeuNome /> */}
-        <Teste />
+        {/* <Teste /> */}
+        <FlexboxV1 />
+
     </SafeAreaView>
 )
 
